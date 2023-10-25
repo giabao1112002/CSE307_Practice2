@@ -11,11 +11,11 @@
     <table border="1" >
         <tr>
             <th>FullName</th>
-            <th align="left"><textarea name="FullName" id="" cols="70" rows="1">Bao</textarea></th>
+            <th align="left"><textarea name="FullName" id="" cols="70" rows="1"></textarea></th>
         </tr>
         <tr>
             <th>Email</th>
-            <th align="left"><input type="email"></th>
+            <th align="left"><input type="email" required="true"></th>
         </tr>
         <tr>
             <th>Passwork</th>
@@ -36,12 +36,11 @@
 
         <tr>
             <th>City</th>
-            <th align="left"><textarea name="" id="" cols="40" rows="1"></textarea> State <textarea name="" id="" cols="30"
-                    rows="1"></textarea></th>
+            <th align="left"><input type="text" placeholder="Enter your City"> State <input type="text" placeholder="Enter your State"></th>
         </tr>
         <tr>
             <th>Zip/Postal Code</th>
-            <th align="left"><textarea name="" id="" cols="70" rows="1"></textarea> </th>
+            <th align="left"><input type="text" placeholder="Enter your Zip/Postal Code">  </th>
         </tr>
         <tr>
             <th align="left">Country</th>
@@ -70,19 +69,19 @@
         <tr>
             <th align="left">Starting Date</th>
             <th align="left">
-                <input type="checkbox" name="" id="" value="Spring">Spring
-                <input type="checkbox" name="" id="" value="Spring">Spring
+                <input type="radio" name="season" id="" value="Spring">Spring
+                <input type="radio" name="season" id="" value="Winter" checked>Winter
             </th>
         </tr>
         <tr>
             <th align="left">Comment</th>
             <th align="left">
-                <textarea name="Comment" id="" cols="70" rows="2"></textarea>
+                <input type="text" placeholder="Please send us more information"> 
             </th>
         </tr>
         <tr>
             <th colspan="2">
-                <center><button type="submit">Submit</button></center>
+                <center><input type="submit"></center>
             </th>
 
 
